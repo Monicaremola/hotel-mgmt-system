@@ -4,7 +4,7 @@ session_start();
 
 if (isset($_SESSION["authenticated"]))
 {
-    if ($_SESSION["authenticated"] == "1")
+    if ($_SESSION["authenticated"] == "2")
     {
         header("Location: index.php");
     }
